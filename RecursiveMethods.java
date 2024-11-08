@@ -7,16 +7,16 @@ public class RecursiveMethods{
       if (n == 0) {//this will calculate the factorial sequenc
         return 0;
       } 
-      else {
         return n * factSequence(n-1);
-      }
+      
   }
     public static int fibSequence(int n) {
       if (n <= 1) {//this will calculate the fibonnaci sequence
         return 1;
-      } else {
+      } 
+      
         return fibSequence(n-1) + fibSequence(n-2);
-      }
+      
     }
     public static boolean isOdd(int n){
       if (n%2 == 0){//calculate using recursive method do not use modulus, this will also calculate whether n is even/odd
